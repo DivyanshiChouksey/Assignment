@@ -78,8 +78,9 @@ To directly run docker use open terminal inside this repo and use -
 
 
 # Resources used:
+https://flask-restful.readthedocs.io/en/latest/ - for understanding flask-restful<br><br>
 https://pymongo.readthedocs.io/en/stable/tutorial.html - for understanding pymongo <br>
 https://www.digitalocean.com/community/tutorials/how-to-use-mongodb-in-a-flask-application - for understanding how to integrate flask and mongoDB <br>
-https://medium.com/analytics-vidhya/creating-dockerized-flask-mongodb-application-20ccde391a - for docker implementation
+https://medium.com/analytics-vidhya/creating-dockerized-flask-mongodb-application-20ccde391a - for docker implementation <br>
 
 
