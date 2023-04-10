@@ -36,10 +36,14 @@ The application should provide the following REST API endpoints:
 
 
 ## Run the Application 💫
-1. venv\Scripts\activate - Activate the virtual env
-2. pip install -r requirements.txt
-3. python app.py<br>
-- to run docker use open terminal inside this repo and use docker-compose up
+1. python -m venv venv - make a virtual env
+2. venv\Scripts\activate - Activate the virtual env
+3. pip install -r requirements.txt
+4. python app.py <br>
+Note: to run app.py in venv change  'mongodb://mongo:27017/db' to 'mongodb://localhost:27017/db'<br><br>
+
+To directly run docker use open terminal inside this repo and use -
+- docker-compose up
 
 
 ## Demonstration video 
@@ -51,7 +55,8 @@ The application should provide the following REST API endpoints:
 3. Implemented API's on app.py
 4. Tested on Postman, also understood working of postman
 5. Updated some features like - in POST action add user only when all data is provided, in PUT action/users/<id> we can update single data as well as all data 
-6. Create dockerfile and docker-compose.yml file  
+6. Install docker and wsl 
+7. Create dockerfile and docker-compose.yml file  
 
 
 
